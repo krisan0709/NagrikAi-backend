@@ -380,4 +380,211 @@ const services = {
   }
 };
 
+
+  "PM Kisan Samman Nidhi": {
+    keywords: [
+      "pm kisan", "kisan yojana", "farmer scheme",
+      "kisaan", "किसान योजना", "pm kisaan samman"
+    ],
+    portal: "PM Kisan Official Portal",
+    link: "https://pmkisan.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "Bank Account Details",
+      "Land Record",
+      "Processing Time: Installment based"
+    ],
+    steps: [
+      "PM Kisan portal open karo",
+      "New Farmer Registration select karo",
+      "Aadhaar aur bank details bharo",
+      "Land details verify karo",
+      "Submit karke status track karo"
+    ]
+  },
+
+  "PM Fasal Bima Yojana": {
+    keywords: [
+      "fasal bima", "crop insurance", "pmfby",
+      "फसल बीमा", "crop loss insurance"
+    ],
+    portal: "PMFBY Portal",
+    link: "https://pmfby.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "Land Record",
+      "Bank Account",
+      "Processing Time: Seasonal"
+    ],
+    steps: [
+      "PMFBY portal open karo",
+      "Farmer login / CSC choose karo",
+      "Crop aur land details bharo",
+      "Bank details add karo",
+      "Application submit karo"
+    ]
+  },
+
+  "National Scholarship Portal": {
+    keywords: [
+      "scholarship", "nsp", "student scheme",
+      "छात्रवृत्ति", "fee help"
+    ],
+    portal: "National Scholarship Portal",
+    link: "https://scholarships.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "Income Certificate",
+      "Bank Passbook",
+      "Bonafide Certificate",
+      "Processing Time: 30–90 days"
+    ],
+    steps: [
+      "NSP portal open karo",
+      "New registration karo",
+      "Scheme select karo",
+      "Documents upload karo",
+      "Final submit karo"
+    ]
+  },
+
+  "Ujjwala Yojana": {
+    keywords: [
+      "ujjwala", "gas connection", "lpg scheme",
+      "उज्ज्वला योजना", "free gas"
+    ],
+    portal: "PMUY Portal",
+    link: "https://pmuy.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "Ration Card",
+      "BPL Certificate",
+      "Processing Time: 15–30 days"
+    ],
+    steps: [
+      "PMUY portal open karo",
+      "Apply for new LPG connection",
+      "Aadhaar aur ration details bharo",
+      "Dealer select karo",
+      "Submit karke verification wait karo"
+    ]
+  },
+
+  "Ayushman Bharat": {
+    keywords: [
+      "ayushman", "pmjay", "health card",
+      "आयुष्मान", "free treatment"
+    ],
+    portal: "PMJAY Portal",
+    link: "https://pmjay.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "SECC Data (if applicable)",
+      "Processing Time: Instant"
+    ],
+    steps: [
+      "PMJAY portal open karo",
+      "Eligibility check karo",
+      "Hospital select karo",
+      "Aadhaar verify karo",
+      "Cashless treatment lo"
+    ]
+  },
+
+  /* ========== STARTUP / ENTREPRENEURS ========== */
+
+  "Startup India": {
+    keywords: [
+      "startup india", "startup registration",
+      "dpiit", "new startup"
+    ],
+    portal: "Startup India Portal",
+    link: "https://www.startupindia.gov.in/",
+    documents: [
+      "PAN Card",
+      "Aadhaar Card",
+      "Company Incorporation Certificate",
+      "Processing Time: 7–15 days"
+    ],
+    steps: [
+      "Startup India portal open karo",
+      "Account create karo",
+      "Startup details bharo",
+      "DPIIT recognition apply karo",
+      "Certificate download karo"
+    ]
+  },
+
+  "PM Mudra Yojana": {
+    keywords: [
+      "mudra loan", "business loan",
+      "msme loan", "mudra"
+    ],
+    portal: "Mudra Loan Portal",
+    link: "https://www.mudra.org.in/",
+    documents: [
+      "Aadhaar Card",
+      "PAN Card",
+      "Bank Account",
+      "Business Proof",
+      "Processing Time: 15–30 days"
+    ],
+    steps: [
+      "Mudra portal open karo",
+      "Loan category select karo",
+      "Application form bharo",
+      "Documents upload karo",
+      "Bank se approval lo"
+    ]
+  },
+
+  "Udyam Registration": {
+    keywords: [
+      "udyam", "msme registration",
+      "udyog aadhar", "msme"
+    ],
+    portal: "Udyam Portal",
+    link: "https://udyamregistration.gov.in/",
+    documents: [
+      "Aadhaar Card",
+      "PAN Card",
+      "Business Details",
+      "Processing Time: Instant"
+    ],
+    steps: [
+      "Udyam portal open karo",
+      "Aadhaar verify karo",
+      "Business details fill karo",
+      "Submit registration",
+      "Certificate download karo"
+    ]
+  },
+
+  "Stand-Up India": {
+    keywords: [
+      "stand up india", "sc st loan",
+      "women entrepreneur loan"
+    ],
+    portal: "Stand-Up India Portal",
+    link: "https://www.standupmitra.in/",
+    documents: [
+      "Aadhaar Card",
+      "Business Plan",
+      "Caste / Gender Proof",
+      "Processing Time: 30–45 days"
+    ],
+    steps: [
+      "Stand-Up India portal open karo",
+      "Borrower registration karo",
+      "Loan type choose karo",
+      "Documents upload karo",
+      "Bank approval ka wait karo"
+    ]
+  }
+
+};
+
+
+
+
 module.exports = services;
